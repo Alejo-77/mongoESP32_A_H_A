@@ -27,6 +27,8 @@ def recibir_dato():
         "dispositivo": data["dispositivo"],
         "temperatura": data["temperatura"],
         "humedad": data["humedad"],
+        "luz": data.get("luz"),  # <-- nueva línea
+        "movimiento": data.get("movimiento"),  # <-- nueva línea
         "timestamp": datetime.utcnow() - timedelta(hours=6)
     }
 
