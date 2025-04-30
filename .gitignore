@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Mac OS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Log files
+*.log
+
+# Render local settings
+render-local.json
